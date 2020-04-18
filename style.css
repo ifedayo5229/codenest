@@ -1,0 +1,109 @@
+html,
+body {
+    width: 100%;
+
+}
+body {
+    margin: 0;
+}
+.c-header {
+    position: relative;
+    height: 80px;
+    width: 100%;
+    background-color: darkcyan;
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.c-header .ist-part {
+position: relative;
+height: 100%;
+width: 50%;
+text-align: center;
+color: #ffffff;
+border-right: 1px solid #040404
+}
+.c-header .ist-part span{
+    vertical-align: middle;
+
+}
+.c-header .sec-part{
+    height: 100%;
+    float: left;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 20%
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0%;
+
+}
+li{
+    float: left;
+
+}
+li a{
+    display: block;
+    padding: 16px;
+    color: tomato;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover{
+background-color: black;
+color: blanchedalmond;
+border-left: 2px solid green;
+}
+
+li a:after{
+    content:'';
+    position: absolute;
+    top: 50%;
+    right: 2px;
+    transform: translatey(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top:  5px solid #ffffff
+}
+.menu-input{
+    ;
+}
+
+.body-content{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid  #040404;
+   color:    #040404
+
+}
+.my-custom-container{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+}
+.panel{
+    position: relative;
+    padding: 0;
+    background-color: #ffffff;
+    border: 1px  solid #040404;
+}
+.panel.panel-body{
+    border-bottom: 1px solid #040404;
+    text-transform: capitalize;
+    padding: 10px 10px;
+    font-size:14px;
+    font-weight: 600;
+    line-height: 2;
+
+}
